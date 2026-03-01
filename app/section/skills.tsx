@@ -19,9 +19,9 @@ const skills: Skill[] = [
         note: "Language",
     },
     {
-        name: "Kotlin",
-        src: "/skillsImage/kotlin.png",
-        note: "Language",
+        name: "React",
+        src: "/skillsImage/react.png",
+        note: "Framework",
     },
     {
         name: "Git",
@@ -34,9 +34,9 @@ const skills: Skill[] = [
         note: "DB",
     },
     {
-        name: "Firebase",
-        src: "/skillsImage/firebase.png",
-        note: "DB",
+        name: "Next.js",
+        src: "/skillsImage/next.webp",
+        note: "Framework",
     },
     {
         name: "Tailwind CSS",
@@ -103,7 +103,7 @@ function SkillCard({ skill, className }: Props) {
                 alt={skill.name}
                 loading="lazy"
                 className={[
-                    "absolute inset-0 h-full w-full object-cover",
+                    "absolute inset-0 h-full w-full object-cover p-2",
                     "scale-[1.02] transition-[transform,filter] duration-200 ease-out",
                     "group-hover:scale-[1.06] group-hover:saturate-[1.05] group-hover:contrast-[1.03]",
                 ].join(" ")}
